@@ -62,7 +62,7 @@ export function ProfileLanding() {
         <div className="flex flex-col md:flex-row gap-8">
           {/* Profile section */}
           <section className="md:w-1/3">
-            <Card className="bg-gray-800 border-gray-700">
+            <Card className="bg-gray-800 border-gray-700 h-full">
               <CardContent className="p-6">
                 <Image
                   src={profileLofi}
